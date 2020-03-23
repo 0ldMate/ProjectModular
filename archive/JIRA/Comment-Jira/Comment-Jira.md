@@ -11,7 +11,7 @@ Creates a comment and a worklog on a ticket given by the other scripts
 Comment-Jira
 
 Creates comment and worklog on ticket TEST-203
-Comment-JIRA -JiraTicket "DUN-203" -JiraComment "Almost done" -JiraWorklog "Working on it" -JiraTimeSpent "00:10"
+Comment-JIRA -JiraTicket "TEST-203" -JiraComment "Almost done" -JiraWorklog "Working on it" -JiraTimeSpent "00:10"
 
 # Parameters
 -JiraTicket <string>

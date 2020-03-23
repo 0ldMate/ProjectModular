@@ -6,13 +6,13 @@
 .EXAMPLE
    Comment-JIRA
 .EXAMPLE
-   Comment-JIRA -JiraTicket "DUN-203" -JiraComment "Almost done" -JiraWorklog "Working on it" -JiraTimeSpent "00:10"
+   Comment-JIRA -JiraTicket "TEST-203" -JiraComment "Almost done" -JiraWorklog "Working on it" -JiraTimeSpent "00:10"
 #>
 function Comment-Jira {
     [CmdletBinding()]
     Param
     (
-        # Jira Ticket Number eg "DUN-201"
+        # Jira Ticket Number eg "TEST-201"
         [string] $JiraTicket,
 
         # The comment you wish to add to the ticket eg "comment example here"

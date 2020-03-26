@@ -1,8 +1,7 @@
 # What is ProjectModular?
     ProjectModular is a set of scripts written in PowerShell that was created to automate basic sysadmin/support jobs.
     It was designed to be a super user friendly experience for those who do not have a lot of PowerShell experience.
-    To do that, most variables call back to a central file that can be edited after download. 
-    This project is still being improved.
+    To do that, most variables call back to a central file that can be edited after download.
 
 # Who can use ProjectModular?
     ProjectModular has been written so that anyone (with or without PowerShell knowledge) could pick it up,
@@ -58,4 +57,3 @@ More scripts
 Mandatory fields in account creation
 Automatic once a day script that runs with Jira pulling data from any ticket in that request type and removing that account
 Reset-ADPassword enable Office365 licensing
-    

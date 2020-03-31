@@ -32,12 +32,19 @@
 
 # PREREQUISITES
 Office365 as a mail server
+
 Powershell3
+
 If you enable certain add-ons:
+
 Microsoft Office 365
+
 Spanning 365 Backup
+
 Microsoft Dynamics AX 2012
+
 JIRA Helpdesk
+
 
 To install ProjectModular download the .zip file and extract the file into C:\Program Files\WindowsPowerShell\Modules. (You may need to give your user full access permissions to allow you to edit files like .csv's)
 Unblock the files by running the following command in an administrator powershell prompt in the directory that ProjectModular is in (ie C:\Program Files\WindowsPowershell\Modules\ProjectModular)
@@ -47,13 +54,3 @@ Open up ProjectModular\General\Load-Variables\Load-Variables.ps1 and edit all th
 Project Modular is installed. Open Powershell and type Get-command -module ProjectModular to see all the commands available. This module will load every time you start PowerShell.
 
 Note: You may need to edit security permissions on that folder for your user so you can save the files.
-
-# Updating Project Modular
-When updates are needed for ProjectModular, make sure to make a copy of the Load-Variables.ps1 file so you don't have to edit it again.
-
-# TODO
-GUI
-More scripts
-Mandatory fields in account creation
-Automatic once a day script that runs with Jira pulling data from any ticket in that request type and removing that account
-Reset-ADPassword enable Office365 licensing

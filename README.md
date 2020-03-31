@@ -46,11 +46,11 @@ Microsoft Dynamics AX 2012
 JIRA Helpdesk
 
 
-To install ProjectModular download the .zip file and extract the file into C:\Program Files\WindowsPowerShell\Modules. (You may need to give your user full access permissions to allow you to edit files like .csv's)
-Unblock the files by running the following command in an administrator powershell prompt in the directory that ProjectModular is in (ie C:\Program Files\WindowsPowershell\Modules\ProjectModular)
-“Get-ChildItem -Path “*.ps*” -Recurse | Unblock-File”
-Open up ProjectModular\General\Load-Variables\Load-Variables.ps1 and edit all the variables needed and save the file.
+##### To install ProjectModular download the .zip file and extract the file into C:\Program Files\WindowsPowerShell\Modules. (You may need to give your user full access permissions to allow you to edit files like .csv's)
+##### Unblock the files by running the following command in an administrator powershell prompt in the directory that ProjectModular is in (ie C:\Program Files\WindowsPowershell\Modules\ProjectModular)
+    “Get-ChildItem -Path “*.ps*” -Recurse | Unblock-File”
+##### Open up ProjectModular\General\Load-Variables\Load-Variables.ps1 and edit all the variables needed and save the file.
 
-Project Modular is installed. Open Powershell and type Get-command -module ProjectModular to see all the commands available. This module will load every time you start PowerShell.
+##### Project Modular is installed. Open Powershell and type Get-command -module ProjectModular to see all the commands available. This module will load every time you start PowerShell.
 
-Note: You may need to edit security permissions on that folder for your user so you can save the files.
+##### Note: You may need to edit security permissions on that folder for your user so you can save the files.
